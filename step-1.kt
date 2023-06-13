@@ -94,7 +94,8 @@ private fun ImageContent(
     if (bitmap != null) {
         Image(
             bitmap = bitmap.asImageBitmap(),
-            contentDescription = "Selected Photo"
+            contentDescription = "Selected Photo", 
+            modifier = Modifier.fillMaxSize().wrapContentSize()
         )
     } else {
         Text(
@@ -112,7 +113,7 @@ private fun LabelRow(
     index: Int,
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().padding(8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Column(modifier = Modifier.weight(1f)) {
