@@ -45,7 +45,7 @@ private fun Image(
 @Composable
 private fun LabelRow(
     label: String, 
-    confidence: Double, 
+    confidence: Float, 
     index: Int, 
 ) {
     
@@ -64,7 +64,7 @@ private fun LabelRowPreview() {
     MyApplicationTheme {
         LabelRow(
             label = "Test label", 
-            confidence = 0.95678, 
+            confidence = 0.95678f, 
             index = 100
         )
     }
