@@ -36,7 +36,7 @@ private fun Content() {
 }
 
 @Composable
-private fun Image(
+private fun ImageContent(
     bitmap: Bitmap?
 ) {
     
