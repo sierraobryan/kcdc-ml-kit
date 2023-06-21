@@ -1,4 +1,4 @@
-package com.sierraobryan.myapplication
+/* package com.sierraobryan.myapplication TODO your package name */ 
 
 import android.graphics.Bitmap
 import android.os.Bundle
