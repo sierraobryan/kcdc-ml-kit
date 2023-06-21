@@ -1,6 +1,9 @@
 # kcdc-ml-kit
 
-dependencies 
+[Slides](https://docs.google.com/presentation/d/1FdFz1HUA0wu3TcfKxcP6FRFK0XoE1I_gUUPqTQveyxU/edit?usp=sharing) 
+
+
+Dependencies 
 
 Part 1  
 ```
