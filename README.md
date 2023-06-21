@@ -7,13 +7,13 @@ Dependencies
 
 Part 1  
 ```
-// Image labelling default   
+// Image labeling default   
 implementation 'com.google.mlkit:image-labeling:17.0.7'
 ```
 
 Part 2 
 ```
-// Image labelling custom   
+// Image labeling custom   
 implementation 'com.google.mlkit:image-labeling-custom:17.0.1'
 ```
 
